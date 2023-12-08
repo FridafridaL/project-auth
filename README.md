@@ -1,13 +1,15 @@
 # Project Auth API
 
-Replace this readme with your own information about your project.
-
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+this project we choosed to work in a group, Me(Frida), Emmy, Caro and Sandra.
+We have build frontend and backend with signupform, loginform and a personal page. Using MongoDB and mongoose for Backend.
+For the frontend we used Javascript React and React Router.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+To solve this we used previuos weeks knowligde, the info on notion and Google.
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+Frontend: https://gregarious-sopapillas-67df63.netlify.app/
+
+backend: https://frida-project-auth.onrender.com/
