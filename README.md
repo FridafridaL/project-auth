@@ -2,7 +2,7 @@
 
 this project we choosed to work in a group, Me(Frida), Emmy, Caro and Sandra.
 We have build frontend and backend with signupform, loginform and a personal page. Using MongoDB and mongoose for Backend.
-For the frontend we used Javascript React and React Router.
+For the frontend we used Javascript React, React Router and Zustand.
 
 ## The problem
 
