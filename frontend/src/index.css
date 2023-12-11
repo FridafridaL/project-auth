@@ -40,27 +40,42 @@ body {
   justify-content: space-between;
 }
 
+.signup-wrapper {
+  padding-top: 30px;
+  padding-bottom: 700px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.back-link a {
+  color: rgb(0, 95, 95);
+}
 .app-li {
   margin: 4px;
 }
 
 .login-content {
   text-align: center;
+  padding-bottom: 300px;
 }
 
 h2 {
+  margin-bottom: 20px;
   font-size: 40px;
   color: rgb(0, 95, 95);
-  margin-bottom: 20px;
 }
 
 .user-login {
   margin: 50px;
 }
-
+.user-registration input,
 .user-login input,
 .user-registration {
-  margin: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
   padding: 15px;
   border-color: rgb(0, 95, 95);
   font-size: 20px;
@@ -78,10 +93,13 @@ button {
   font-size: 20px;
   border-radius: 40px;
   margin: 20px;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
 }
 
 button:hover {
   background-color: rgb(1, 40, 40);
+  transform: scale(1.1);
 }
 
 .message-wrapping {
@@ -92,8 +110,43 @@ button:hover {
   align-items: center;
   flex-direction: column;
   margin-top: 100px;
+  padding-bottom: 200px;
 }
 
-.message {
+div .message {
   font-size: 30px;
+  padding-bottom: 100px;
+}
+
+svg {
+  margin-top: -80px;
+}
+@media (min-width: 565px) {
+  .user-login {
+    width: 400px;
+  }
+
+  svg {
+    margin-top: -30px;
+  }
+  h2 {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 800px) {
+  .user-login {
+    width: 700px;
+  }
+
+  svg {
+    margin-top: 50px;
+  }
+  h2 {
+    margin-top: 80px;
+  }
+  .login-content {
+    padding-top: 50px;
+    padding-bottom: 600px;
+  }
 }
